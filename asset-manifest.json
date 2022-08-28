@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7481fdd6.css",
+    "main.js": "./static/js/main.45c3a4b7.js",
+    "static/media/ataa-app.apk": "./static/media/ataa-app.d930fdbe27a5852ed209.apk",
+    "static/media/landing-image1.png": "./static/media/landing-image1.74d9ee1b0b7d3ce09e02.png",
+    "static/media/landing-image2.jpg": "./static/media/landing-image2.907c641078dbcbbea65e.jpg",
+    "static/media/landing-image3.jpg": "./static/media/landing-image3.e8e9ce42ccd21331da32.jpg",
+    "static/media/Mobile-image.png": "./static/media/Mobile-image.36d77a638c61eb971b84.png",
+    "static/media/warning1.svg": "./static/media/warning1.1dd07acdcbbc8b58548c2fd18f8d306a.svg",
+    "index.html": "./index.html",
+    "static/media/warning.svg": "./static/media/warning.1d359a1767c5f2f2a777000c48743c3c.svg",
+    "main.7481fdd6.css.map": "./static/css/main.7481fdd6.css.map",
+    "main.45c3a4b7.js.map": "./static/js/main.45c3a4b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7481fdd6.css",
+    "static/js/main.45c3a4b7.js"
+  ]
+}
