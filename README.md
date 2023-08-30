@@ -15,7 +15,7 @@ Features
 - Budget Tracking: The application includes a section dedicated to tracking the total budget of the charity. Staff members can view the overall financial status and monitor the budget allocated to each individual project. This feature helps ensure transparency and effective financial management.
 
 ## Release
-Feel free to try it from [Here](https://twfek-ajeneh.github.io/ataa-dashboard/).
+Feel free to try it from [Here](https://twfek-ajeneh.github.io/Ataa-Charity-Dashboard/).
 
 ## Preview
 ![Home](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/dbc6ee39-2c87-4247-97da-68052756a6d9)
