@@ -1,0 +1,143 @@
+.multi-select-input{
+    position: relative;
+    color: var(--main-black);
+    border:  1px solid var(--secondary-color);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 15px;
+    width: 160px;
+    height: 40px;
+    padding-right: 15px;
+    padding-left: 25px;
+}
+
+.multi-select-input-label{
+    color: var(--main-black);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.multi-select-input-active{
+    background-color: var(--active-color);
+    border-color: var(--main-color);
+}
+
+.multi-select-input::after{
+    content: '';
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: var(--secondary-color);
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    cursor: pointer;
+}
+
+.multi-select-input > span{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    pointer-events: none;   
+}
+
+.multi-select-input .multi-select-input-list{
+    width: 158px;
+    height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: white;
+    border: .5px solid rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    z-index: 100;
+}
+
+.multi-select-input-list-show{
+    display: none;
+}
+
+.multi-select-input .multi-select-input-list .multi-select-input-list-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px 10px 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.multi-select-input .multi-select-input-list .multi-select-input-list-item input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.multi-select-input .multi-select-input-list .multi-select-input-list-item .checkmark{
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    height: 19px;
+    width: 19px;
+    background-color: var(--active-color);
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.multi-select-input .multi-select-input-list .multi-select-input-list-item:hover input ~ .checkmark{
+    background-color: #F5FBF9;
+}
+
+.multi-select-input .multi-select-input-list .multi-select-input-list-item input:checked ~ .checkmark{
+    background-color: white;
+    border: 1px solid var(--main-color);
+}
+
+.multi-select-input .multi-select-input-list .multi-select-input-list-item .checkmark::after{
+    content: "";
+    position: absolute;
+    display: none;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid var(--main-color);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.multi-select-input .multi-select-input-list .multi-select-input-list-item input:checked ~ .checkmark::after{
+    display: block;
+}
+
+.multi-select-input-error{
+    color: var(--main-red);
+    margin: 10px 10px -8px 0 ;
+    text-align: right;
+    font-size: 13px;
+}

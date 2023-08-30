@@ -1,0 +1,286 @@
+.add-project{
+    width: calc(100% - 235px);
+    height: 100vh;
+    overflow-y: auto;
+    margin-right: 235px;
+}
+
+.add-project .add-project-content{
+    padding-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+}
+
+.add-project .add-project-content .loading-icon,
+.add-project .add-project-content .error{
+    margin: auto;
+}
+
+.add-project .add-project-content > form{
+    width: 1025px;
+}
+
+.add-project .add-project-content form .section1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.add-project .add-project-content form .section1 .section2{
+    flex: 1;
+}
+
+.add-project .add-project-content form .section1 .section2 > div{
+    margin-bottom: 30px;
+}
+
+.add-project .add-project-content form .section1 .section3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-project .add-project-content form .section1 .section4{
+    margin-bottom: 29px;
+    height: 355px;
+}
+
+.add-project .add-project-content form .section1 .section4 > div{
+    height: 100%;
+}
+
+.add-project .add-project-content form .section1 .section4 img{
+    width: 97%;
+    height: 96%;
+}
+
+.add-project .add-project-content form .section5{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-project .add-project-content form .section6{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.add-project .add-project-content form .section6 .part1 > div:first-of-type,
+.add-project .add-project-content form .section6 .part2 > div:first-of-type{
+    margin-top: 10px;
+    width: 400px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid var(--draw-color);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.add-project .add-project-content form .section6 .part2 .beneficiaries div{
+    border-bottom: 1px solid var(--draw-color);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.add-project .add-project-content form .section6 .part2 .beneficiaries div img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.add-project .add-project-content form .section6 .part2 .beneficiaries div > span{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-project .add-project-content form .section6 .part2 .beneficiaries div > span span{
+    margin-top: 5px;
+    color: #696969;
+}
+
+.add-project .add-project-content form .section6 .part1 .employees div div,
+.add-project .add-project-content form .section6 .part1 .employees .plus-button{
+    border-bottom: 1px solid var(--draw-color);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.add-project .add-project-content form .section6 .part1 .employees div:hover .plus-icon svg path,
+.add-project .add-project-content form .section6 .part2 .beneficiaries div:hover .plus-icon svg path{
+    fill: var(--main-color);
+}
+
+.add-project .add-project-content form .section6 .part1 .employees .plus-button:hover,
+.add-project .add-project-content form .section6 .part2 .beneficiaries .plus-button:hover{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.add-project .add-project-content form .section6 .part1 .employees div div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 20px;
+}
+
+.add-project .add-project-content form .section6 .part1 .employees div div > span{
+    display: flex;
+    flex-direction: column;
+}
+
+.add-project .add-project-content form .section6 .part1 .employees div div > span span{
+    margin-top: 5px;
+    color: #696969;
+}
+
+.add-project .add-project-content form .section6 .part1 .employees div .title{
+    padding: 3px 15px 3px 0;
+    font-size: 12px;
+    background-color: #FBFBFB;
+    pointer-events: none;
+}
+
+.add-project .add-project-content form .section6 .part2 .beneficiaries .title{
+    padding: 3px 15px 3px 0;
+    font-size: 12px;
+    background-color: #FBFBFB;
+    pointer-events: none;
+}
+
+.add-project .add-project-content form .section7{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.add-project .add-project-content form .section7 .section8{
+    display: flex;
+    flex-direction: row;
+}
+
+.add-project .add-project-content form .section7 .loading-icon{
+    margin-left: 40px;
+}
+
+@media(max-width: 991px){
+    .add-project{
+        width: 100%;
+        margin: 100px 0 0 0;
+        padding-right: 5px;
+    }
+    .add-project .add-project-content{
+        padding: 0;
+        padding-right: 5px;
+    }
+    .add-project .add-project-content form{
+        padding-right: 0;
+        padding-left: 15px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px){
+    .add-project .add-project-content form .section1{
+        flex-direction: column-reverse;
+    }   
+    .add-project .add-project-content form .section1 .section4{
+        margin-bottom: 20px;
+    }
+    .add-project .add-project-content form .section1 .section4 .image-input-field label{
+        width: 390px !important;
+        height: 300px !important;
+    }
+    .add-project .add-project-content form .section1 .section2 .section3{
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: flex-start;
+    }
+    .add-project .add-project-content form .section1 .section2 .section3 > div{
+        margin-bottom: 25px;
+        margin-left: 83px;
+        
+    }
+    .add-project .add-project-content form .section5{
+        flex-direction: column;
+        margin: 0;
+    }
+    .add-project .add-project-content form .section5 > div{
+        margin-bottom: 30px;
+    }
+    .add-project .add-project-content form .section5 > div textarea{
+        width: 385px !important;
+    }
+    .add-project .add-project-content form .section6{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+    }
+    .add-project .add-project-content form .section6 > div{
+        margin-bottom: 30px;
+    }
+    .add-project .add-project-content form .section6 .part1 > div:first-of-type,
+    .add-project .add-project-content form .section6 .part2 > div:first-of-type{
+        width: 100%;
+    }
+    .add-project .add-project-content form .section7{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .add-project .add-project-content form .section7 div:first-child{
+        margin-bottom: 40px;
+    }
+    .add-project .add-project-content form .section7 .section8{
+        flex-direction: row-reverse;
+    }
+    .add-project .add-project-content form .section7 .section8 > div{
+        margin-left: 40px;
+    }
+    .employees-pop-up  .pop-up-list .pop-up-list-content .pop-up-list-items > label span{
+        margin-left: 5px !important;
+    }
+    .add-project .add-project-content form .employees-pop-up .pop-up-list .pop-up-list-content .pop-up-list-sort-bar span:nth-child(1){
+        margin-right: 10px !important; 
+        margin-left: 43px !important;
+    }
+    .add-project .add-project-content form .employees-pop-up .pop-up-list .pop-up-list-content .pop-up-list-sort-bar span:nth-child(2){
+        margin-left: 40px !important;
+    }
+    .add-project .add-project-content form .employees-pop-up .pop-up-list .pop-up-list-content .pop-up-list-sort-bar span:nth-child(3){
+        margin-left: 40px !important;
+    }
+    .beneficiaries-pop-up  .pop-up-list .pop-up-list-content .pop-up-list-items > label span{
+        margin-left: 12px !important;
+    }
+    .add-project .add-project-content form .beneficiaries-pop-up .pop-up-list .pop-up-list-content .pop-up-list-sort-bar span:nth-child(1){
+        margin-right: 10px !important; 
+        margin-left: 50px !important;
+    }
+    .add-project .add-project-content form .beneficiaries-pop-up .pop-up-list .pop-up-list-content .pop-up-list-sort-bar span:nth-child(2){
+        margin-left: 43px !important;
+    }
+    .add-project .add-project-content form .beneficiaries-pop-up .pop-up-list .pop-up-list-content .pop-up-list-sort-bar span:nth-child(3){
+        margin-left: 40px !important;
+    }
+}

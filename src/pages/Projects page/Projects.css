@@ -1,0 +1,12 @@
+.projects-page{
+    width: calc(100% - 55px);
+    min-height: 100vh;
+    margin-right: 55px;
+}
+
+@media(max-width: 991px){
+    .projects-page{
+        margin: 0;
+        width: 100%;
+    }
+}

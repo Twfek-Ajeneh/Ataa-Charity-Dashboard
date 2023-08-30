@@ -1,0 +1,21 @@
+.not-found{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.not-found div:last-child{
+    opacity: .8;
+    color: var(--secondary-color);
+    font-size: 22px;
+}
+
+@media(max-width:991px){
+    .not-found{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}

@@ -1,0 +1,35 @@
+.pop-up-budget{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: var(--active-black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up-budget .pop-up-budget-content{
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}   
+
+.pop-up-budget .pop-up-budget-content .pop-up-budget-content-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}

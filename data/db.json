@@ -1,0 +1,527 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "username": "twfekajeneh",
+      "password": "0988311840"
+    },
+    {
+      "username": "fasdf",
+      "password": "fasdf",
+      "id": 2
+    },
+    {
+      "username": "gsdag",
+      "password": "agsd",
+      "id": 3
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "مبادرة لا للجوع",
+      "image": "https://imgur.com/7x7f05c.png",
+      "startDate": "2021-10-18",
+      "endDate": "2025-10-18",
+      "location": "حلب",
+      "type": "عام",
+      "categories": [
+        2,
+        3,
+        4
+      ],
+      "projectGoals": "يهدف المشروع الى القضاء على الجوع، وتوفير الأمن الغذائي، وتحسين التغذية، وتعزيز الزراعة المستدامة ويحتل هذا الهدف الأولوية الأولى لدى هذه الحملة.",
+      "projectDescription": "في كل يوم، يعمل برنامجنا من أجل الوصول إلى عالم خال تماماً من الجوع. ومن خلال ما نقدمه من مساعدات غذائية إنسانية، فنحن نوفر أطعمة مُغذِّية لمن هم في حاجة ملحة لذلك. وفي الوقت نفسه، تعمل برامجنا التكميلية على معالجة الأسباب الجذرية للجوع، وبناء القدرة على الصمود لدى المجتمعات، بحيث لا نضطر إلى الاستمرار في إنقاذ الأرواح نفسها في كل عام.",
+      "status": "مستمر",
+      "target": "1000000000",
+      "currentBalance": "147985315",
+      "projectEmployees": [
+        {
+          "id": 1,
+          "name": "توفيق عجينة",
+          "jobState": "مدير",
+          "category": "موظف",
+          "status": "مقبول",
+          "image": "https://imgur.com/lpGiANX.png"
+        },
+        {
+          "id": 2,
+          "name": "ابراهيم حيارية",
+          "jobState": "متطوع",
+          "category": "متطوع",
+          "status": "معلق",
+          "image": "https://imgur.com/lpGiANX.png"
+        }
+      ],
+      "projectBeneficiaries": [
+        {
+          "id": 1,
+          "name": "سامر غنام",
+          "image": "https://imgur.com/lpGiANX.png",
+          "state": "حلب"
+        },
+        {
+          "id": 1,
+          "name": "محمد محمد",
+          "image": "https://imgur.com/lpGiANX.png",
+          "state": "حلب"
+        },
+        {
+          "id": 1,
+          "name": "حسن البني",
+          "image": "https://imgur.com/lpGiANX.png",
+          "state": "حلب"
+        },
+        {
+          "id": 1,
+          "name": "ياسين الأصفر",
+          "image": "https://imgur.com/lpGiANX.png",
+          "state": "حلب"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "العلم نور",
+      "image": "https://imgur.com/7c4ifAC.png",
+      "startDate": "2019-1-18",
+      "endDate": "2021-12-18",
+      "location": "دمشق",
+      "type": "خاص",
+      "categories": [],
+      "projectGoals": "اهداف المشروع",
+      "projectDescription": "وصف المشروع",
+      "status": "مكتمل",
+      "target": "1000000",
+      "currentBalance": "1000000",
+      "projectEmployees": [],
+      "projectBeneficiaries": []
+    },
+    {
+      "id": 3,
+      "name": "صحتنا الأهم",
+      "image": "https://imgur.com/kxlRgZN.png",
+      "startDate": "2001-10-18",
+      "endDate": "2010-10-18",
+      "location": "حمص",
+      "type": "عام",
+      "categories": [],
+      "projectGoals": "اهداف المشروع",
+      "projectDescription": "وصف المشروع",
+      "status": "ملغى",
+      "target": "100000",
+      "currentBalance": "10000",
+      "projectEmployees": [],
+      "projectBeneficiaries": []
+    }
+  ],
+  "beneficiaries": [
+    {
+      "id": 1,
+      "name": "سامر غنام",
+      "idNumber": "01010482314",
+      "birthdate": "2001-8-2",
+      "phoneNumber": "0979482167",
+      "image": "https://imgur.com/lpGiANX.png",
+      "gender": "ذكر",
+      "socialStatus": "متزوج",
+      "numberOfChildren": 2,
+      "currentJob": "أعمال حرة",
+      "salary": "150000",
+      "state": "دمشق",
+      "region": "منطقة الميدان",
+      "location": "جانب صيدلية الحياة",
+      "categories": [
+        1,
+        2,
+        6,
+        4
+      ],
+      "email": "samer@gmail.com",
+      "healthStatus": "يعاني من أمراض مزمنة (سكري , ضغط الدم)",
+      "residentialStatus": "يسكن في بيت للأجار",
+      "generalStatus": "لا يوجد ملاحظات",
+      "status": "مقبول",
+      "projects": [
+        {
+          "id": 1,
+          "name": "مبادرة لا للجوع",
+          "image": "https://imgur.com/7x7f05c.png",
+          "startDate": "2021-10-18",
+          "endDate": "2025-10-18",
+          "location": "حلب",
+          "type": "عام",
+          "categories": [
+            2,
+            3,
+            4
+          ],
+          "projectGoals": "يهدف المشروع الى القضاء على الجوع، وتوفير الأمن الغذائي، وتحسين التغذية، وتعزيز الزراعة المستدامة ويحتل هذا الهدف الأولوية الأولى لدى هذه الحملة.",
+          "projectDescription": "في كل يوم، يعمل برنامجنا من أجل الوصول إلى عالم خال تماماً من الجوع. ومن خلال ما نقدمه من مساعدات غذائية إنسانية، فنحن نوفر أطعمة مُغذِّية لمن هم في حاجة ملحة لذلك. وفي الوقت نفسه، تعمل برامجنا التكميلية على معالجة الأسباب الجذرية للجوع، وبناء القدرة على الصمود لدى المجتمعات، بحيث لا نضطر إلى الاستمرار في إنقاذ الأرواح نفسها في كل عام.",
+          "status": "مستمر",
+          "target": "1000000000",
+          "currentBalance": "147985315",
+          "projectEmployees": [
+            {
+              "id": 1,
+              "name": "توفيق عجينة",
+              "jobState": "مدير",
+              "category": "موظف",
+              "status": "مقبول",
+              "image": "https://imgur.com/lpGiANX.png"
+            },
+            {
+              "id": 2,
+              "name": "ابراهيم حيارية",
+              "jobState": "متطوع",
+              "category": "متطوع",
+              "status": "معلق",
+              "image": "https://imgur.com/lpGiANX.png"
+            }
+          ],
+          "projectBeneficiaries": [
+            {
+              "id": 1,
+              "name": "سامر غنام",
+              "image": "https://imgur.com/lpGiANX.png",
+              "state": "حلب"
+            },
+            {
+              "id": 1,
+              "name": "محمد محمد",
+              "image": "https://imgur.com/lpGiANX.png",
+              "state": "حلب"
+            },
+            {
+              "id": 1,
+              "name": "حسن البني",
+              "image": "https://imgur.com/lpGiANX.png",
+              "state": "حلب"
+            },
+            {
+              "id": 1,
+              "name": "ياسين الأصفر",
+              "image": "https://imgur.com/lpGiANX.png",
+              "state": "حلب"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "العلم نور",
+          "image": "https://imgur.com/7c4ifAC.png",
+          "startDate": "2019-1-18",
+          "endDate": "2021-12-18",
+          "location": "دمشق",
+          "type": "خاص",
+          "categories": [],
+          "projectGoals": "اهداف المشروع",
+          "projectDescription": "وصف المشروع",
+          "status": "مكتمل",
+          "target": "1000000",
+          "currentBalance": "1000000",
+          "projectEmployees": [],
+          "projectBeneficiaries": []
+        },
+        {
+          "id": 3,
+          "name": "صحتنا الأهم",
+          "image": "https://imgur.com/kxlRgZN.png",
+          "startDate": "2001-10-18",
+          "endDate": "2010-10-18",
+          "location": "حمص",
+          "type": "عام",
+          "categories": [],
+          "projectGoals": "اهداف المشروع",
+          "projectDescription": "وصف المشروع",
+          "status": "ملغى",
+          "target": "100000",
+          "currentBalance": "10000",
+          "projectEmployees": [],
+          "projectBeneficiaries": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "حسن البني",
+      "idNumber": "01010482314",
+      "birthdate": "1994-8-2",
+      "phoneNumber": "0979278496",
+      "image": "https://imgur.com/lpGiANX.png",
+      "gender": "ذكر",
+      "socialStatus": "متزوج",
+      "numberOfChildren": 2,
+      "currentJob": "راعي",
+      "salary": "5478",
+      "state": "حلب",
+      "region": "منطقة الباب",
+      "location": "جانب صيدلية أب محمود",
+      "categories": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "email": "twfekajeneh@gmail.com",
+      "healthStatus": "ما بيشكي من شي'",
+      "residentialStatus": "عندو سكن",
+      "generalStatus": "زلمة محترم وابن عالم وناس",
+      "status": "معلق",
+      "projects": [
+        {
+          "id": 1,
+          "name": "مبادرة",
+          "type": "عام"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "ياسين الأصفر",
+      "idNumber": "01010482314",
+      "birthdate": "1984-8-2",
+      "phoneNumber": "091786492378",
+      "image": "https://imgur.com/lpGiANX.png",
+      "gender": "ذكر",
+      "socialStatus": "متزوج",
+      "numberOfChildren": 2,
+      "currentJob": "راعي",
+      "salary": "5478",
+      "state": "حلب",
+      "region": "منطقة الباب",
+      "location": "جانب صيدلية أب محمود",
+      "categories": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "email": "twfekajeneh@gmail.com",
+      "healthStatus": "ما بيشكي من شي'",
+      "residentialStatus": "عندو سكن",
+      "generalStatus": "زلمة محترم وابن عالم وناس",
+      "status": "مرفوض",
+      "projects": [
+        {
+          "id": 1,
+          "name": "مبادرة",
+          "type": "عام"
+        }
+      ]
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "توفيق عجينة",
+      "idNumber": "01014524788",
+      "email": "twfekajeneh@gmail.com",
+      "phoneNumber": "0988311840",
+      "image": "https://imgur.com/lpGiANX.png",
+      "birthdate": "2001-10-18",
+      "gender": "ذكر",
+      "category": "موظف",
+      "jobState": "مدير",
+      "state": "دمشق",
+      "region": "منطقة الشعلان",
+      "location": "دوار الزهور",
+      "status": "مقبول",
+      "employeeDetails": "موظف خلوق و مهذب"
+    },
+    {
+      "id": 2,
+      "name": "أسامة بازو",
+      "idNumber": "01014524788",
+      "email": "osamaBazo@gmail.com",
+      "phoneNumber": "0994428778",
+      "image": "https://imgur.com/lpGiANX.png",
+      "birthdate": "2000-3-20",
+      "gender": "ذكر",
+      "category": "موظف",
+      "jobState": "مدير مشاريع",
+      "state": "دمشق",
+      "region": "منطقة الشعلان",
+      "location": "السوق الرئيسي",
+      "status": "مقبول",
+      "employeeDetails": "موظف خلوق و مهذب"
+    },
+    {
+      "id": 3,
+      "name": "أحمد الشهال",
+      "idNumber": "01014524788",
+      "email": "ahmadalshahal@gmail.com",
+      "phoneNumber": "0951737433",
+      "image": "https://imgur.com/lpGiANX.png",
+      "birthdate": "2001-11-26",
+      "gender": "ذكر",
+      "category": "موظف",
+      "jobState": "مدير مشاريع",
+      "state": "دمشق",
+      "region": "منطقة الشعلان",
+      "location": "جانب صيدلية أب عبدو",
+      "status": "مقبول",
+      "employeeDetails": "موظف خلوق و مهذب"
+    },
+    {
+      "id": 4,
+      "name": "عليا المسوتي",
+      "idNumber": "01014524788",
+      "email": "alya@gmail.com",
+      "phoneNumber": "0934919091",
+      "image": "https://imgur.com/lpGiANX.png",
+      "birthdate": "2001-10-18",
+      "gender": "انثى",
+      "category": "موظف",
+      "jobState": "مدير مشاريع",
+      "state": "دمشق",
+      "region": "منطقة الشعلان",
+      "location": "جانب صيدلية أب عبدو",
+      "status": "مقبول",
+      "employeeDetails": "موظف خلوق و مهذب"
+    },
+    {
+      "id": 5,
+      "name": "ابراهيم حيارية",
+      "idNumber": "01014524788",
+      "email": "ibrahimhiaria@gmail.com",
+      "phoneNumber": "0954536349",
+      "image": "https://imgur.com/lpGiANX.png",
+      "birthdate": "2001-10-18",
+      "gender": "ذكر",
+      "category": "موظف",
+      "jobState": "مدير",
+      "state": "دمشق",
+      "region": "منطقة الشعلان",
+      "location": "جانب صيدلية أب عبدو",
+      "status": "مقبول",
+      "employeeDetails": "موظف خلوق و مهذب"
+    }
+  ],
+  "budget": {
+    "charityBudget": "100005250",
+    "projectsBudget": "6541098",
+    "programsBudget": "56198",
+    "projects": [
+      {
+        "id": 1,
+        "name": "مبادرة لا للجوع",
+        "image": "https://imgur.com/7x7f05c.png",
+        "startDate": "2021-10-18",
+        "endDate": "2025-10-18",
+        "location": "حلب",
+        "type": "عام",
+        "categories": [
+          2,
+          3,
+          4
+        ],
+        "projectGoals": "يهدف المشروع الى القضاء على الجوع، وتوفير الأمن الغذائي، وتحسين التغذية، وتعزيز الزراعة المستدامة ويحتل هذا الهدف الأولوية الأولى لدى هذه الحملة.",
+        "projectDescription": "في كل يوم، يعمل برنامجنا من أجل الوصول إلى عالم خال تماماً من الجوع. ومن خلال ما نقدمه من مساعدات غذائية إنسانية، فنحن نوفر أطعمة مُغذِّية لمن هم في حاجة ملحة لذلك. وفي الوقت نفسه، تعمل برامجنا التكميلية على معالجة الأسباب الجذرية للجوع، وبناء القدرة على الصمود لدى المجتمعات، بحيث لا نضطر إلى الاستمرار في إنقاذ الأرواح نفسها في كل عام.",
+        "status": "مستمر",
+        "target": "1000000000",
+        "currentBalance": "147985315",
+        "projectEmployees": [
+          {
+            "id": 1,
+            "name": "توفيق عجينة",
+            "jobState": "مدير",
+            "category": "موظف",
+            "status": "مقبول",
+            "image": "https://imgur.com/lpGiANX.png"
+          },
+          {
+            "id": 2,
+            "name": "ابراهيم حيارية",
+            "jobState": "متطوع",
+            "category": "متطوع",
+            "status": "معلق",
+            "image": "https://imgur.com/lpGiANX.png"
+          }
+        ],
+        "projectBeneficiaries": [
+          {
+            "id": 1,
+            "name": "سامر غنام",
+            "image": "https://imgur.com/lpGiANX.png",
+            "state": "حلب"
+          },
+          {
+            "id": 1,
+            "name": "محمد محمد",
+            "image": "https://imgur.com/lpGiANX.png",
+            "state": "حلب"
+          },
+          {
+            "id": 1,
+            "name": "حسن البني",
+            "image": "https://imgur.com/lpGiANX.png",
+            "state": "حلب"
+          },
+          {
+            "id": 1,
+            "name": "ياسين الأصفر",
+            "image": "https://imgur.com/lpGiANX.png",
+            "state": "حلب"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "العلم نور",
+        "image": "https://imgur.com/7c4ifAC.png",
+        "startDate": "2019-1-18",
+        "endDate": "2021-12-18",
+        "location": "دمشق",
+        "type": "خاص",
+        "categories": [],
+        "projectGoals": "اهداف المشروع",
+        "projectDescription": "وصف المشروع",
+        "status": "مكتمل",
+        "target": "1000000",
+        "currentBalance": "1000000",
+        "projectEmployees": [],
+        "projectBeneficiaries": []
+      },
+      {
+        "id": 3,
+        "name": "صحتنا الأهم",
+        "image": "https://imgur.com/kxlRgZN.png",
+        "startDate": "2001-10-18",
+        "endDate": "2010-10-18",
+        "location": "حمص",
+        "type": "عام",
+        "categories": [],
+        "projectGoals": "اهداف المشروع",
+        "projectDescription": "وصف المشروع",
+        "status": "ملغى",
+        "target": "100000",
+        "currentBalance": "10000",
+        "projectEmployees": [],
+        "projectBeneficiaries": []
+      }
+    ],
+    "programs": [
+      {
+        "id": 1,
+        "target": "40674",
+        "currentBalance": "85119889"
+      },
+      {
+        "id": 2,
+        "target": "4043674",
+        "currentBalance": "85119889"
+      },
+      {
+        "id": 3,
+        "target": "40674",
+        "currentBalance": "85119889"
+      },
+      {
+        "id": 4,
+        "target": "40674",
+        "currentBalance": "85119889"
+      }
+    ]
+  }
+}

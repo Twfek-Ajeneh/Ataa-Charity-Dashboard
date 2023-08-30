@@ -1,0 +1,255 @@
+.edit-project{
+    width: calc(100% - 235px);
+    height: 100vh;
+    overflow-y: auto;
+    margin-right: 235px;
+}
+
+.edit-project .edit-project-content{
+    padding-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+}
+
+.edit-project .edit-project-content .loading-icon,
+.edit-project .edit-project-content .error{
+    margin: auto;
+}
+
+.edit-project .edit-project-content > form{
+    width: 1025px;
+}
+
+.edit-project .edit-project-content form .section1{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.edit-project .edit-project-content form .section1 .section2{
+    flex: 1;
+}
+
+.edit-project .edit-project-content form .section1 .section2 > div{
+    margin-bottom: 30px;
+}
+
+.edit-project .edit-project-content form .section1 .section3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-project .edit-project-content form .section1 .section4{
+    margin-bottom: 29px;
+    height: 355px;
+}
+
+.edit-project .edit-project-content form .section1 .section4 > div{
+    height: 100%;
+}
+
+.edit-project .edit-project-content form .section1 .section4 img{
+    width: 97%;
+    height: 96%;
+}
+
+.edit-project .edit-project-content form .section5{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-project .edit-project-content form .section6{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.edit-project .edit-project-content form .section6 .part1 > div:first-of-type,
+.edit-project .edit-project-content form .section6 .part2 > div:first-of-type{
+    margin-top: 10px;
+    width: 400px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid var(--draw-color);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+.edit-project .edit-project-content form .section6 .part2 .beneficiaries div{
+    border-bottom: 1px solid var(--draw-color);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.edit-project .edit-project-content form .section6 .part2 .beneficiaries div img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.edit-project .edit-project-content form .section6 .part2 .beneficiaries div > span{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-project .edit-project-content form .section6 .part2 .beneficiaries div > span span{
+    margin-top: 5px;
+    color: #696969;
+}
+
+.edit-project .edit-project-content form .section6 .part1 .employees div div,
+.edit-project .edit-project-content form .section6 .part1 .employees .plus-button{
+    border-bottom: 1px solid var(--draw-color);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.edit-project .edit-project-content form .section6 .part1 .employees div:hover .plus-icon svg path,
+.edit-project .edit-project-content form .section6 .part2 .beneficiaries div:hover .plus-icon svg path{
+    fill: var(--main-color);
+}
+
+.edit-project .edit-project-content form .section6 .part1 .employees .plus-button:hover,
+.edit-project .edit-project-content form .section6 .part2 .beneficiaries .plus-button:hover{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.edit-project .edit-project-content form .section6 .part1 .employees div div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 20px;
+}
+
+.edit-project .edit-project-content form .section6 .part1 .employees div div > span{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-project .edit-project-content form .section6 .part1 .employees div > span span{
+    margin-top: 5px;
+    color: #696969;
+}
+
+.edit-project .edit-project-content form .section6 .part1 .employees div .title{
+    padding: 3px 15px 3px 0;
+    font-size: 12px;
+    background-color: #FBFBFB;
+    pointer-events: none;
+}
+
+.edit-project .edit-project-content form .section6 .part2 .beneficiaries .title{
+    padding: 3px 15px 3px 0;
+    font-size: 12px;
+    background-color: #FBFBFB;
+    pointer-events: none;
+}
+
+.edit-project .edit-project-content form .section7{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.edit-project .edit-project-content form .section7 .section8{
+    display: flex;
+    flex-direction: row;
+}
+
+.edit-project .edit-project-content form .section7 .loading-icon{
+    margin-left: 40px;
+}
+
+@media(max-width: 991px){
+    .edit-project{
+        width: 100%;
+        margin: 100px 0 0 0;
+        padding-right: 5px;
+    }
+    .edit-project .edit-project-content{
+        padding: 0;
+        padding-right: 5px;
+    }
+    .edit-project .edit-project-content form{
+        padding-right: 0;
+        padding-left: 15px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px){
+    .edit-project .edit-project-content form .section1{
+        flex-direction: column-reverse;
+    }   
+    .edit-project .edit-project-content form .section1 .section4{
+        margin-bottom: 20px;
+    }
+    .edit-project .edit-project-content form .section1 .section4 .image-input-field label{
+        width: 390px !important;
+        height: 300px !important;
+    }
+    .edit-project .edit-project-content form .section1 .section2 .section3{
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: flex-start;
+    }
+    .edit-project .edit-project-content form .section1 .section2 .section3 > div{
+        margin-bottom: 25px;
+        margin-left: 83px;
+        
+    }
+    .edit-project .edit-project-content form .section5{
+        margin: 0;
+        flex-direction: column;
+    }
+    .edit-project .edit-project-content form .section5 > div{
+        margin-bottom: 30px;
+    }
+    .edit-project .edit-project-content form .section5 > div > textarea{
+        width: 400px !important;
+    }
+    .edit-project .edit-project-content form .section6{
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .edit-project .edit-project-content form .section6 > div{
+        margin-bottom: 30px;
+    }
+    .edit-project .edit-project-content form .section7{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .edit-project .edit-project-content form .section7 div:first-child{
+        margin-bottom: 40px;
+    }
+    .edit-project .edit-project-content form .section7 .section8{
+        flex-direction: row-reverse;
+    }
+    .edit-project .edit-project-content form .section7 .section8 > div{
+        margin-left: 40px;
+    }
+}

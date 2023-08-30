@@ -1,0 +1,74 @@
+.select-input-field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.select-input-field .select-input-field-label{
+    color: var(--main-black);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.select-input-field select{
+    color: var(--main-black);
+    border-color: var(--secondary-color);
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    padding-right: 15px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    appearance: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.select-input-field::after{
+    content: '';
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: var(--secondary-color);
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 45px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    cursor: pointer;
+}
+
+.select-input-field select::placeholder{
+    color: var(--main-black);
+    text-overflow: ellipsis;
+    opacity: .5;
+}
+
+.select-input-field select:focus{
+    background-color: var(--active-color);
+    border-color: var(--main-color);
+}
+
+.select-input-field select:focus::placeholder{
+    opacity: .3;
+}
+
+.select-input-field select:disabled{
+    cursor: auto;
+    opacity: .6;
+}
+
+.select-input-field .select-input-field-error{
+    color: var(--main-red);
+    margin: 10px 40px -8px 0 ;
+    text-align: right;
+    font-size: 13px;
+}

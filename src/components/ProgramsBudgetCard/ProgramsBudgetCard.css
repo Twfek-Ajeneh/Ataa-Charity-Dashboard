@@ -1,0 +1,58 @@
+.programs-budget-card{
+    width: 250px;
+    height: 330px;
+    background-color: #FBFBFB;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.programs-budget-card:hover{
+    box-shadow: 0 2px 5px rgb(0 0 0 / 50%);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.programs-budget-card .icon{
+    margin: 30px 0;
+}
+
+.programs-budget-card .icon div svg{
+    width: 90px;
+    height: 90px;
+}
+
+.programs-budget-card .icon div svg path{
+    stroke: none;
+    fill: var(--main-color);
+}
+
+.programs-budget-card .name{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.programs-budget-card .target,
+.programs-budget-card .current-target{
+    font-size: 14px;
+}
+
+.programs-budget-card .click-edit{
+    font-size: 11px;
+    font-weight: bold;
+    color: var(--active-black);
+    opacity: .7;
+}

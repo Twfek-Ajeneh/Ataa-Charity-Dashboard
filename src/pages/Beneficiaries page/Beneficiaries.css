@@ -1,0 +1,13 @@
+.Beneficiaries-page{
+    width: calc(100% - 55px);
+    min-height: 100vh;
+    margin-right: 55px;
+}
+
+@media(max-width: 991px){
+    .Beneficiaries-page{
+        margin: 0;
+        width: 100%;
+        min-height: 100vh;
+    }
+}

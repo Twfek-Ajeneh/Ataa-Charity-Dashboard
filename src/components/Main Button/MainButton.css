@@ -1,0 +1,73 @@
+.main-button{
+    position: relative;
+}
+
+.main-button button{
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.main-button button:disabled{
+    pointer-events: none;
+    opacity: .6;
+}
+
+.main-button-effect-before::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff55;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    animation: ripple 180ms cubic-bezier(0.23 , 1 , 0.32 , 1);
+    -webkit-animation: ripple 180ms cubic-bezier(0.23 , 1 , 0.32 , 1);
+}
+
+.main-button-effect-after::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff55;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    animation: ripple 180ms cubic-bezier(0.23 , 1 , 0.32 , 1);
+    -webkit-animation: ripple 180ms cubic-bezier(0.23 , 1 , 0.32 , 1);
+}
+
+@keyframes ripple {
+    to{
+        transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+        -moz-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+        -o-transform: scaleX(1);
+    }
+}

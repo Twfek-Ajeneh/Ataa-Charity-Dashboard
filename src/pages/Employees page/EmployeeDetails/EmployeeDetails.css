@@ -1,0 +1,118 @@
+.employee-details{
+    width: calc(100% - 235px);
+    margin-right: 235px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.employee-details .employee-details-content{
+    margin: 0 20px 20px 80px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.employee-details .employee-details-content .loading-icon,
+.employee-details .employee-details-content .error{
+    margin: auto;
+}
+
+.employee-details .employee-details-content h4{
+    color: var(--secondary-color);
+    padding-bottom: 10px;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid var(--secondary-color);
+    font-size: 13px;
+}
+
+.employee-details .employee-details-content .section1,
+.employee-details .employee-details-content .section2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.employee-details .employee-details-content .section1 .personal-info,
+.employee-details .employee-details-content .section1 .job-info,
+.employee-details .employee-details-content .section2 .contact-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.employee-details .employee-details-content .section1 .personal-info > div,
+.employee-details .employee-details-content .section1 .job-info > div,
+.employee-details .employee-details-content .section2 .contact-info > div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-size: 13px;
+}
+
+.employee-details .employee-details-content .section1 .job-info .emplyoeeDetails{
+    flex-direction: column;
+}
+
+.employee-details .employee-details-content .section1 .job-info .emplyoeeDetails .information{
+    margin-bottom: 10px;
+}
+
+.employee-details .employee-details-content .information{
+    font-weight: bold;
+}
+
+.employee-details .employee-details-content .section2 .photo{
+    border: 1px solid var(--secondary-color);
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 62px auto 62px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employee-details .employee-details-content .section2 .photo img{
+    width: 90%;
+    height: 90%;
+}
+
+.employee-details .employee-details-content .section3{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media(max-width: 991px){
+    .employee-details{
+        width: 100%;
+        margin: 100px 0 0 0;
+        padding-right: 10px;
+    }
+    .employee-details .employee-details-content{
+        margin: 0 0 30px 30px;
+    }
+}
+
+@media(max-width: 767px){
+    .employee-details .employee-details-content{
+        flex-direction: column;
+    }
+    .employee-details .employee-details-content .section1, 
+    .employee-details .employee-details-content .section2{
+        width: 100%;
+    }
+    .employee-details .employee-details-content .section2 .photo{
+        display: none;
+    }
+    .employee-details .employee-details-content .section3{
+        justify-content: center;
+    }
+}

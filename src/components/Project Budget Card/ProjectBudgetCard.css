@@ -1,0 +1,93 @@
+.card{
+    width: 250px;
+    height: 330px;
+    background-color: #FBFBFB;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 0 2px 5px rgb(0 0 0 / 50%);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.card .image{
+    width: 90%;
+    height: 150px;
+    margin-top: 5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.card .name{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card .progress{
+    position: relative;
+    width: 90%;
+    margin-bottom: 10px;
+}   
+
+.card .progress .current-progress{
+    width: 100%;
+    background-color: rgba(62, 180, 137, 0.3);
+    height: 5px;
+    border-radius: 7px;
+    position: relative;
+}
+
+.card .progress .current-progress span{
+    position: absolute;
+    height: 5px;
+    right: 0;
+    top: 0;
+    background-color: var(--main-color);
+    border-radius: 7px;
+}
+
+.card .progress .percent{
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.card .target,
+.card .current-target{
+    font-size: 14px;
+}

@@ -1,0 +1,44 @@
+.date-input-field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.date-input-field .date-input-field-label{
+    color: var(--main-black);
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.date-input-field input{
+    color: var(--main-black);
+    border-color: var(--secondary-color);
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    padding: 10px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.date-input-field input::placeholder{
+    color: var(--main-black);
+    text-overflow: ellipsis;
+    opacity: .5;
+}
+
+.date-input-field input:focus{
+    background-color: var(--active-color);
+    border-color: var(--main-color);
+}
+
+.date-input-field .date-input-field-error{
+    color: var(--main-red);
+    margin: 10px 40px -8px 0;
+    text-align: right;
+    font-size: 13px;
+}

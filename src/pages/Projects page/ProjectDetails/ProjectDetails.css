@@ -1,0 +1,348 @@
+.project-details{
+    width: calc(100% - 235px);
+    height: 100vh;
+    margin-right: 235px;
+    overflow-y: scroll;
+}
+
+.project-details .project-details-content{
+    margin: 0 20px 20px 50px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.project-details .project-details-content .loading-icon,
+.project-details .project-details-content .error{
+    margin: auto;
+}
+
+.project-details .project-details-content .project-details-content-section1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-bottom: 10px;
+}
+
+.project-details .project-details-content .project-details-content-section1 .part1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 15px;
+    color: var(--main-black);
+}
+
+.project-details .project-details-content .project-details-content-section1 .part1 h3{
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+}
+
+.project-details .project-details-content .project-details-content-section1 .part1 b{
+    margin-left: 10px;
+}
+
+.project-details .project-details-content .project-details-content-section1 .part1 .progress{
+    width: 100%;
+    height: 8px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background-color: var(--active-color);
+    position: relative;
+    margin-top: 10px;
+}
+
+.project-details .project-details-content .project-details-content-section1 .part1 .progress .current-progress{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 100%;
+    height: 8px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background-color: var(--main-color);
+}
+
+.project-details .project-details-content .project-details-content-section1 .part1 .progress .percent{
+    position: absolute;
+    left: 0;
+    top: -17px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.project-details .project-details-content .project-details-content-section1 .part1 .dividar{
+    width: 100%;
+    height: 1px;
+    background: var(--secondary-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.project-details .project-details-content .project-details-content-section1 .part2{
+    width: 500px;
+    height: 300px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-details .project-details-content .project-details-content-section1 .part2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.project-details .project-details-content .project-details-content-section2{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.project-details .project-details-content .project-details-content-section2 .part1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+
+.project-details .project-details-content .project-details-content-section2 .part1 b{
+    margin-left: 10px;
+}
+
+.project-details .project-details-content .project-details-content-section2 .part1 span{
+    margin-left: 200px;
+}
+
+.project-details .project-details-content .project-details-content-section2 .part2{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project-details .project-details-content .project-details-content-section2 .part2 b{
+    display: block;
+    margin-bottom: 10px;
+}
+.project-details .project-details-content .project-details-content-section2 .part3{
+    line-height: 1.6;
+}
+
+.project-details .project-details-content .project-details-content-section2 .part3 b{
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.project-details .project-details-content .project-details-content-section3{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.project-details .project-details-content .project-details-content-section3 .part1,
+.project-details .project-details-content .project-details-content-section3 .part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-details .project-details-content .project-details-content-section3 .part1 > div,
+.project-details .project-details-content .project-details-content-section3 .part2 > div{
+    margin-top: 10px;
+    width: 400px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid var(--draw-color);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    position: relative;
+}
+
+.project-details .project-details-content .project-details-content-section3 .part2 .beneficiaries div{
+    border-bottom: 1px solid var(--draw-color);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.project-details .project-details-content .project-details-content-section3 .part2 .beneficiaries div:hover,
+.project-details .project-details-content .project-details-content-section3 .part1 .employees div div:hover{
+    background-color: var(--active-color);
+}
+
+.project-details .project-details-content .project-details-content-section3 .part2 .beneficiaries .beneficiaries-empty,
+.project-details .project-details-content .project-details-content-section3 .part1 .employees .employees-empty{
+    display: inline-block;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 14px;
+    opacity: .7;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
+
+.project-details .project-details-content .project-details-content-section3 .part2 .beneficiaries div span{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-details .project-details-content .project-details-content-section3 .part2 .beneficiaries div span span{
+    margin-top: 5px;
+    color: #696969;
+}
+
+.project-details .project-details-content .project-details-content-section3 .part2 .beneficiaries div img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.project-details .project-details-content .project-details-content-section3 .part1 .employees div div{
+    border-bottom: 1px solid var(--draw-color);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.project-details .project-details-content .project-details-content-section3 .part1 .employees div div img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 20px;
+}
+
+
+.project-details .project-details-content .project-details-content-section3 .part1 .employees div div > span{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-details .project-details-content .project-details-content-section3 .part1 .employees div div > span span{
+    margin-top: 5px;
+    color: #696969;
+}
+
+.project-details .project-details-content .project-details-content-section3 .part1 .employees div .title,
+.project-details .project-details-content .project-details-content-section3 .part2 .beneficiaries .title{
+    padding: 3px 15px 3px 0;
+    font-size: 12px;
+    background-color: #FBFBFB;
+    pointer-events: none;
+}
+
+.project-details .project-details-content .project-details-content-section4{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+@media(max-width: 991px){
+    .project-details{
+        width: 100%;
+        margin: 100px 0 0 0;
+        padding-right: 10px;
+    }
+    .project-details .project-details-content{
+        margin: 0 0 0 15px;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+}
+
+@media(max-width: 767px){
+    .project-details .project-details-content .project-details-content-section1{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .project-details .project-details-content .project-details-content-section1 .part1 span,
+    .project-details .project-details-content .project-details-content-section1 .part1 h3,
+    .project-details .project-details-content .project-details-content-section1 .part2{
+        margin-bottom: 15px;
+    }
+    .project-details .project-details-content .project-details-content-section1 .part2{
+        width: 100%;
+    }
+    .project-details .project-details-content .project-details-content-section2{
+        flex-direction: column;
+    }
+    .project-details .project-details-content .project-details-content-section2 .part1{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .project-details .project-details-content .project-details-content-section2 .part1 > span{
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .project-details .project-details-content .project-details-content-section3{
+        flex-direction: column;
+        margin: 0;
+    }
+    .project-details .project-details-content .project-details-content-section3 > div{
+        margin-bottom: 30px;
+    }
+    .project-details .project-details-content .project-details-content-section3 .part1 > div,
+    .project-details .project-details-content .project-details-content-section3 .part2 > div{
+        width: 100%;
+    }
+    .project-details .project-details-content .project-details-content-section4{
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+    .project-details .project-details-content .project-details-content-section4 div:not(:last-child){
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}

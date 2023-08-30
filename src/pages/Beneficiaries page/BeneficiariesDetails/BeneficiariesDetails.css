@@ -1,0 +1,154 @@
+.beneficiaries-details{
+    width: calc(100% - 235px);
+    height: 100vh;
+    overflow-y: scroll;
+    margin-right: 235px;
+}
+
+.beneficiaries-details .beneficiaries-details-content{
+    margin: 0 20px 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.beneficiaries-details .beneficiaries-details-content .loading-icon,
+.beneficiaries-details .beneficiaries-details-content .error{
+    margin: auto;
+}
+
+.beneficiaries-details .beneficiaries-details-content h4{
+    color: var(--secondary-color);
+    padding-bottom: 10px;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid var(--secondary-color);
+    font-size: 13px;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section1,
+.beneficiaries-details .beneficiaries-details-content .section2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section1 .personal-info,
+.beneficiaries-details .beneficiaries-details-content .section1 .social-info,
+.beneficiaries-details .beneficiaries-details-content .section2 .contact-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.beneficiaries-details .beneficiaries-details-content .section1 .personal-info > div,
+.beneficiaries-details .beneficiaries-details-content .section1 .social-info > div,
+.beneficiaries-details .beneficiaries-details-content .section2 .contact-info > div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-size: 13px;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section1 .social-info .general-status{
+    flex-direction: column;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section1 .social-info .general-status .inforamtion{
+    margin-bottom: 10px;
+}
+
+.beneficiaries-details .beneficiaries-details-content .inforamtion{
+    font-weight: bold;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section2 .photo{
+    border: 1px solid var(--secondary-color);
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 62px auto 62px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section2 .photo img{
+    width: 90%;
+    height: 90%;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section2 .projects{
+    margin-bottom: 40px;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section2 .projects .list-of-projects{
+    overflow-y: scroll;
+    height: 240px;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section2 .projects .list-of-projects > div{
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--secondary-color);
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section2 .projects .list-of-projects > div div{
+    width: 100px;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section2 .projects .list-of-projects > div:last-of-type{
+    border-bottom: none;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section2 .projects .list-of-projects > div span{
+    font-weight: normal;
+    margin-right: 50px;
+}
+
+.beneficiaries-details .beneficiaries-details-content .section2 .projects .list-of-projects > div:hover{
+    background: var(--active-color);
+}
+
+
+.beneficiaries-details .beneficiaries-details-content .section3{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media(max-width: 991px){
+    .beneficiaries-details{
+        width: 100%;
+        margin: 100px 0 0 0;
+        padding-right: 10px;
+    }
+    .beneficiaries-details .beneficiaries-details-content{
+        margin: 0 0 30px 30px;
+    }
+}
+
+@media(max-width: 767px){
+    .beneficiaries-details .beneficiaries-details-content{
+        flex-direction: column;
+    }
+    .beneficiaries-details .beneficiaries-details-content .section1, 
+    .beneficiaries-details .beneficiaries-details-content .section2{
+        width: 100%;
+    }
+    .beneficiaries-details .beneficiaries-details-content .section2 .photo{
+        display: none;
+    }
+    .beneficiaries-details .beneficiaries-details-content .section3{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,101 @@
+.main-navbar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #FBFBFB;
+    width: 55px;
+    height: 100vh; 
+    box-shadow: 0 2px 15px rgb(0 0 0 /15%);
+    z-index: 2;
+    margin-left: 20px;
+    display: flex;
+}
+
+.main-navbar .main-navbar-logos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.main-navbar .main-navbar-logos div{
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.main-navbar .main-navbar-logos div::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.main-navbar .main-navbar-logos :not(:first-child) div:hover::after{
+    background-color: var(--active-color);
+    width: 200%;
+    height: 200%
+}
+
+.main-navbar .main-navbar-logos :not(:first-child):last-child:hover::after{
+    background-color: rgba(243, 36, 36, 0.1);
+    width: 200%;
+    height: 200%
+}
+
+.main-navbar .main-navbar-logos a{
+    width: 100%;
+}
+
+.main-navbar .main-navbar-logos .main-navbar-logos-active{
+    position: relative;
+}
+
+.main-navbar .main-navbar-logos .main-navbar-logos-active::before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background-color: var(--main-color);    
+    right: 0px;
+    border-radius: 7px;
+}
+
+.main-navbar .main-navbar-logos .main-navbar-logos-active svg path{
+    fill : var(--main-color);
+}
+
+@media(max-width: 991px){
+    .main-navbar{
+        width: 100%;
+        height: 50px;
+        right: 0;
+        top: 0;
+        z-index: 10;
+    }
+    .main-navbar .main-navbar-logos{
+        flex-direction: row;
+    }
+    .main-navbar .main-navbar-logos .main-navbar-logos-active::before{
+        display: none;
+    }
+}

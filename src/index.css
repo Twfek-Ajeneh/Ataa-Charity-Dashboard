@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@200;300;400;500;600;700&display=swap');
+
+/* Start Global Rules */
+*{
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  caret-color: var(--main-black);
+  user-select: none;
+}
+
+:root {
+  --main-color: #3EB489;
+  --active-color: rgb(60 180 137 / 10%);
+  --main-black: #232323;
+  --active-black: #555555d1;
+  --main-red: #F32424;
+  --active-red: rgb(243 36 36 / 10%);
+  --secondary-color: #B3B3B3;
+  --draw-color: #E5E5E5;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* overflow: hidden; */
+}
+
+body {
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+
+@media(max-width: 767px){
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 6px;
+  }
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(62, 180, 137, 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(62, 180, 137, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(62, 180, 137, 1);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: rgba(62, 180, 137, 1);
+}
+/* End Global Rules */
+/* ------------------------------------------------------------------------------------------------------- */

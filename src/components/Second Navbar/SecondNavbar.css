@@ -1,0 +1,99 @@
+.second-navbar{
+    position: fixed;
+    width: 235px;
+    height: 100vh;
+    border-left: 1px solid var(--draw-color);
+    font-weight: bold;
+    background-color: white;
+}
+
+.second-navbar .second-navbar-header{
+    width: 100%;
+    height: 160px;
+    color: var(--main-black);
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 18px;
+    border-bottom: 1px solid var(--draw-color);
+}
+
+
+.second-navbar .second-navbar-content a{
+    text-decoration: none;
+}
+
+.second-navbar .second-navbar-content div{
+    margin: 25px 10px 25px 15px;
+    padding: 15px;
+    color: var(--main-black);
+    cursor: pointer;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.second-navbar .second-navbar-content div::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 0%;
+    height: 0%;
+    background: var(--active-color);
+    transition: .7s;
+    -webkit-transition: .7s;
+    -moz-transition: .7s;
+    -ms-transition: .7s;
+    -o-transition: .7s;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
+
+.second-navbar .second-navbar-content div:not(.second-navbar-active):hover::after{
+    width: 200%;
+    height: 150%;
+}
+
+.second-navbar .second-navbar-content .second-navbar-active{
+    background-color: var(--active-color);
+}
+
+@media(max-width: 991px){
+    .second-navbar{
+        box-shadow: 0 2px 5px rgb(0 0 0 / 30%);
+        width: 100%;
+        height: 70px;
+        top: 50px;
+        left: 0;
+        display: flex;
+        z-index: 5;
+    }
+    .second-navbar .second-navbar-header{
+        display: block;
+        border-bottom: none;
+        border-left: 1px solid var(--draw-color);
+        padding: 0 20px 0 20px;
+        width: fit-content;
+        height: 60px;   
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .second-navbar .second-navbar-content{
+        display: flex;
+    }
+    .second-navbar .second-navbar-content a div{
+        margin: 13px;
+        font-size: 10px;
+    }
+}

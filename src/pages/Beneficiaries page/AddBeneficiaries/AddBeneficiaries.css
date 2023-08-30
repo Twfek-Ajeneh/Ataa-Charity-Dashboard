@@ -1,0 +1,104 @@
+.add-beneficiaries{
+    width: calc(100% - 235px);
+    height: 100vh;
+    overflow-y: scroll;
+    margin-right: 235px;
+}
+
+.add-beneficiaries .add-beneficiaries-content{
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.add-beneficiaries .add-beneficiaries-content form{
+    position: relative;
+    width: 1000px;
+}
+
+.add-beneficiaries .add-beneficiaries-content form .section1{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.add-beneficiaries .add-beneficiaries-content form .section1 .section2{
+    display: flex;
+    row-gap: 30px;
+    column-gap: 85px;
+    flex-wrap: wrap;
+    margin-bottom: -20px;
+}
+
+.add-beneficiaries .add-beneficiaries-content form .section4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.add-beneficiaries .add-beneficiaries-content form .section5{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.add-beneficiaries .add-beneficiaries-content form .section6{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.add-beneficiaries .add-beneficiaries-content form .section7{
+    margin-bottom: 30px;
+}
+
+.add-beneficiaries .add-beneficiaries-content form .section9{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-beneficiaries .add-beneficiaries-content form .section9 .loading-icon{
+    margin-left: 40px;
+}
+
+@media(max-width: 991px){
+    .add-beneficiaries{
+        width: 100%;
+        margin: 100px 0 0 0;
+        padding-right: 10px;
+    }
+    .add-beneficiaries .add-beneficiaries-content{
+        padding-right: 0;
+    }
+    .add-beneficiaries .add-beneficiaries-content form{
+        padding-right: 0;
+        padding-left: 15px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px){
+    .add-beneficiaries .add-beneficiaries-content form .section1{
+        flex-direction: column-reverse;
+    }
+    .add-beneficiaries .add-beneficiaries-content form .section1 .section3{
+        margin-bottom: 20px;
+    }
+    .add-beneficiaries .add-beneficiaries-content form .section4{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    .add-beneficiaries .add-beneficiaries-content form .section4 div{
+        margin-bottom: 30px;
+    }
+    .add-beneficiaries .add-beneficiaries-content form .section5{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    .add-beneficiaries .add-beneficiaries-content form .section5 > div{
+        margin-bottom: 30px;
+    }
+}
+
