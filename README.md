@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+Ataa Charity Web Application
+===================================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
+--------
+Ataa is a web application built with React for managing and organizing the operations of a charity organization. The application includes a landing page that provides an overview of the charity's mission and goals. Staff members of the charity can log in to the main dashboard, which allows them to manage and control the projects, employees, and beneficiaries associated with the charity. Additionally, there is a section dedicated to viewing the total budget of the charity, as well as the budget allocated to each individual project.
 
-## Available Scripts
+Features
+--------
+- Landing Page: The landing page offers a brief overview of the charity, highlighting its mission, objectives, and the impact it aims to make in the community.
+- Staff Login: Staff members can securely log in to the main dashboard using their credentials, gaining access to the various management features.
+- Project Management: The dashboard provides functionality to manage and control the projects of the charity. Staff members can add, edit, or delete project information, including project details, goals, milestones, and progress updates.
+- Employee Management: The application allows for the management of charity employees. Staff members can add new employees, update their information, and remove employees as needed.
+- Beneficiary Management: The system enables the management of beneficiaries who benefit from the charity's services. Staff members can add, edit, or remove beneficiary information, including their personal details, needs, and the type of assistance they receive.
+- Budget Tracking: The application includes a section dedicated to tracking the total budget of the charity. Staff members can view the overall financial status and monitor the budget allocated to each individual project. This feature helps ensure transparency and effective financial management.
 
-In the project directory, you can run:
+## Release
+Feel free to try it from [Here](https://twfek-ajeneh.github.io/ataa-dashboard/).
 
-### `npm start`
+## Preview
+![Home](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/dbc6ee39-2c87-4247-97da-68052756a6d9)
+![Login Screen](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/3c50cb89-4466-4e63-9f6d-15b0f378ca8a)
+![DashBoa![Budget Screen 2](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/a58068ab-b907-48c1-9ed7-36c5808b74bc)
+rd Screen](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/15018fb4-3aa2-437e-a742-d631635416fb)
+![Budget Screen 1](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/7b0aff11-5ef1-4a5d-9045-9a2a9bfa018f)
+![Beneficiary Details](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/1ed00275-03c1-4e9e-b61d-0db0a19f8839)
+![Add Pro![Add Beneficiary](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/df0c241b-370c-4f65-97d1-d33dc70f1c6b)
+ject](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/bc6cfefc-2ace-4d7e-92f3-aca19f8a711a)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
