@@ -20,10 +20,10 @@ Feel free to try it from [Here](https://twfek-ajeneh.github.io/ataa-dashboard/).
 ## Preview
 ![Home](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/dbc6ee39-2c87-4247-97da-68052756a6d9)
 ![Login Screen](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/3c50cb89-4466-4e63-9f6d-15b0f378ca8a)
-![DashBoa![Budget Screen 2](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/a58068ab-b907-48c1-9ed7-36c5808b74bc)
-rd Screen](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/15018fb4-3aa2-437e-a742-d631635416fb)
+![DashBoard Screen](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/15018fb4-3aa2-437e-a742-d631635416fb)
+![Budget Screen 2](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/a58068ab-b907-48c1-9ed7-36c5808b74bc)
 ![Budget Screen 1](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/7b0aff11-5ef1-4a5d-9045-9a2a9bfa018f)
 ![Beneficiary Details](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/1ed00275-03c1-4e9e-b61d-0db0a19f8839)
-![Add Pro![Add Beneficiary](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/df0c241b-370c-4f65-97d1-d33dc70f1c6b)
-ject](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/bc6cfefc-2ace-4d7e-92f3-aca19f8a711a)
+![Add Project](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/bc6cfefc-2ace-4d7e-92f3-aca19f8a711a)
+![Add Beneficiary](https://github.com/Twfek-Ajeneh/Ataa-Charity-Dashboard/assets/92256265/df0c241b-370c-4f65-97d1-d33dc70f1c6b)
 
