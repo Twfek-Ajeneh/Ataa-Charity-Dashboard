@@ -1,4 +1,4 @@
-Ataa Charity Web Application
+Ataa Charity Dasboard
 ===================================
 
 Overview
